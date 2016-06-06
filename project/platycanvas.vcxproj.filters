@@ -1,0 +1,508 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="source">
+      <UniqueIdentifier>{5c61e721-a50e-4103-9859-c4c48d6b4d42}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Bx2D">
+      <UniqueIdentifier>{b9ec81c3-d60a-4964-80db-fcbf75b83792}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Bx2D\addon">
+      <UniqueIdentifier>{84ca4c00-4854-43a4-a96b-dad526593f52}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Bx2D\core">
+      <UniqueIdentifier>{cd0c3695-abad-4e20-82e1-6f1ba42b5e25}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Bx2D\lib">
+      <UniqueIdentifier>{8be0a710-6379-423b-955e-dd798bf2de3c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>moc;h;cpp</Extensions>
+      <ParseFiles>true</ParseFiles>
+    </Filter>
+    <Filter Include="Generated Files\Debug">
+      <UniqueIdentifier>{8df4f49a-cf96-4d68-9242-b4ea3b50067d}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Release">
+      <UniqueIdentifier>{eeae6519-8247-47e1-bf39-fd78381f8294}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="assets">
+      <UniqueIdentifier>{dae8e128-f5f3-49eb-8468-268892f88190}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="assets\config">
+      <UniqueIdentifier>{319912cc-1718-4b1d-98c1-78d6fad7bdc9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Bx2D\skin">
+      <UniqueIdentifier>{83e2fe3b-2c9d-4975-8355-7e3e55d315cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Bx2D\skin\ime">
+      <UniqueIdentifier>{ef3aefdb-7810-4ca6-b5ce-d4d7de40e6b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\platyui">
+      <UniqueIdentifier>{cfd310e0-22ef-45ce-af95-a1375b7dd568}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\platyui\toolbar">
+      <UniqueIdentifier>{c345ab67-5b59-49fa-bd27-63623659bbc2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PlatyVG">
+      <UniqueIdentifier>{e9420283-0a1f-42d3-b743-4f4a76451b61}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PlatyVG\source">
+      <UniqueIdentifier>{d67b7a78-83ab-492f-8298-89bee5ed3400}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PlatyVG\source\platyvg">
+      <UniqueIdentifier>{93826be2-11c3-4080-9960-0864a67ebc65}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PlatyVG\source\platyvg\api">
+      <UniqueIdentifier>{fd4d4d2a-6bd0-400a-bbe3-00553b45ded8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PlatyVG\source\platyvg\element">
+      <UniqueIdentifier>{44da978b-9f43-4e4d-82be-f0a91d35cf12}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PlatyVG\source\platyvg\px">
+      <UniqueIdentifier>{1ecfba32-b278-4903-b13d-fcb46a8a019c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PlatyVG\source\platyvg\core">
+      <UniqueIdentifier>{882b143b-46b1-4371-9079-6c8d04f057d0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Bx2D\addon\BxAddOn_GIF.cpp">
+      <Filter>Bx2D\addon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Bx2D\addon\BxAddOn_HQX.cpp">
+      <Filter>Bx2D\addon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Bx2D\addon\BxAddOn_JPG.cpp">
+      <Filter>Bx2D\addon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Bx2D\addon\BxAddOn_MD5.cpp">
+      <Filter>Bx2D\addon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Bx2D\addon\BxAddOn_TTF.cpp">
+      <Filter>Bx2D\addon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Bx2D\addon\BxAddOn_ZIP.cpp">
+      <Filter>Bx2D\addon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Bx2D\core\BxCoreForQT5.cpp">
+      <Filter>Bx2D\core</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_BxCoreForQT5.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_BxCoreForQT5.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Bx2D\core\BxCoreImpl.cpp">
+      <Filter>Bx2D\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Bx2D\skin\ime\IMEBoard.cpp">
+      <Filter>Bx2D\skin\ime</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Bx2D\skin\ime\IMEButton.cpp">
+      <Filter>Bx2D\skin\ime</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Bx2D\skin\ime\IMEEdit.cpp">
+      <Filter>Bx2D\skin\ime</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Bx2D\skin\ime\IMESysButton.cpp">
+      <Filter>Bx2D\skin\ime</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Bx2D\skin\ime\IMETip.cpp">
+      <Filter>Bx2D\skin\ime</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Bx2D\skin\BxIME.cpp">
+      <Filter>Bx2D\skin</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Bx2D\skin\BxProjectHelper.cpp">
+      <Filter>Bx2D\skin</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Bx2D\skin\BxSimulator.cpp">
+      <Filter>Bx2D\skin</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Bx2D\skin\BxStartPage.cpp">
+      <Filter>Bx2D\skin</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PlatyVG\source\element\coord.cpp">
+      <Filter>PlatyVG\source\platyvg\element</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PlatyVG\source\element\edge.cpp">
+      <Filter>PlatyVG\source\platyvg\element</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PlatyVG\source\element\point.cpp">
+      <Filter>PlatyVG\source\platyvg\element</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PlatyVG\source\element\context.cpp">
+      <Filter>PlatyVG\source\platyvg\element</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PlatyVG\source\element\mesh.cpp">
+      <Filter>PlatyVG\source\platyvg\element</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PlatyVG\source\element\size.cpp">
+      <Filter>PlatyVG\source\platyvg\element</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PlatyVG\source\element\action.cpp">
+      <Filter>PlatyVG\source\platyvg\element</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PlatyVG\source\element\color.cpp">
+      <Filter>PlatyVG\source\platyvg\element</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PlatyVG\source\element\matrix.cpp">
+      <Filter>PlatyVG\source\platyvg\element</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PlatyVG\source\element\zoom.cpp">
+      <Filter>PlatyVG\source\platyvg\element</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PlatyVG\source\element\rect.cpp">
+      <Filter>PlatyVG\source\platyvg\element</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PlatyVG\source\element\table.cpp">
+      <Filter>PlatyVG\source\platyvg\element</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PlatyVG\source\element\selector.cpp">
+      <Filter>PlatyVG\source\platyvg\element</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\platycanvas.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PlatyVG\source\px\array.cpp">
+      <Filter>PlatyVG\source\platyvg\px</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PlatyVG\source\px\buffer.cpp">
+      <Filter>PlatyVG\source\platyvg\px</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PlatyVG\source\px\file.cpp">
+      <Filter>PlatyVG\source\platyvg\px</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PlatyVG\source\px\math.cpp">
+      <Filter>PlatyVG\source\platyvg\px</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PlatyVG\source\px\memory.cpp">
+      <Filter>PlatyVG\source\platyvg\px</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PlatyVG\source\px\parser.cpp">
+      <Filter>PlatyVG\source\platyvg\px</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PlatyVG\source\px\share.cpp">
+      <Filter>PlatyVG\source\platyvg\px</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PlatyVG\source\px\string.cpp">
+      <Filter>PlatyVG\source\platyvg\px</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PlatyVG\source\core\document.cpp">
+      <Filter>PlatyVG\source\platyvg\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PlatyVG\source\core\layer.cpp">
+      <Filter>PlatyVG\source\platyvg\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PlatyVG\source\core\record.cpp">
+      <Filter>PlatyVG\source\platyvg\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PlatyVG\source\core\shape.cpp">
+      <Filter>PlatyVG\source\platyvg\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PlatyVG\source\core\view.cpp">
+      <Filter>PlatyVG\source\platyvg\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\platyui\PenStatusBar.cpp">
+      <Filter>source\platyui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\platyui\Button.cpp">
+      <Filter>source\platyui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\platyui\ToolColor.cpp">
+      <Filter>source\platyui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\platyui\ToolStroke.cpp">
+      <Filter>source\platyui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\platyui\Label.cpp">
+      <Filter>source\platyui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\platyui\VSlider.cpp">
+      <Filter>source\platyui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\platyui\MapColor.cpp">
+      <Filter>source\platyui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\platyui\MapStroke.cpp">
+      <Filter>source\platyui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\platyui\ToolAqua.cpp">
+      <Filter>source\platyui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\platyui\MapAqua.cpp">
+      <Filter>source\platyui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\platyui\Tab.cpp">
+      <Filter>source\platyui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\platycanvasdata.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PlatyVG\source\core\device.cpp">
+      <Filter>PlatyVG\source\platyvg\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\platyui\toolbar\ToolBar.Pen.cpp">
+      <Filter>source\platyui\toolbar</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\platyui\toolbar\ToolLabel.cpp">
+      <Filter>source\platyui\toolbar</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\platyui\toolbar\ToolButton.cpp">
+      <Filter>source\platyui\toolbar</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\platyui\toolbar\ToolDoor.cpp">
+      <Filter>source\platyui\toolbar</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\platyui\toolbar\ToolClose.cpp">
+      <Filter>source\platyui\toolbar</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\platyui\toolbar\ToolItem.Stroke.cpp">
+      <Filter>source\platyui\toolbar</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\platyui\toolbar\ToolRound.cpp">
+      <Filter>source\platyui\toolbar</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\platyui\toolbar\ToolSlide.cpp">
+      <Filter>source\platyui\toolbar</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\platyui\toolbar\ToolPalette.cpp">
+      <Filter>source\platyui\toolbar</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\platyui\toolbar\ToolItem.Color.cpp">
+      <Filter>source\platyui\toolbar</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\platyui\toolbar\ToolBar.Layer.cpp">
+      <Filter>source\platyui\toolbar</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PlatyVG\source\px\px.cpp">
+      <Filter>PlatyVG\source\platyvg\px</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PlatyVG\source\api\adapter.cpp">
+      <Filter>PlatyVG\source\platyvg\api</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PlatyVG\source\api\command.cpp">
+      <Filter>PlatyVG\source\platyvg\api</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PlatyVG\source\api\export.cpp">
+      <Filter>PlatyVG\source\platyvg\api</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PlatyVG\source\api\input.cpp">
+      <Filter>PlatyVG\source\platyvg\api</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PlatyVG\source\api\listener.cpp">
+      <Filter>PlatyVG\source\platyvg\api</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PlatyVG\source\api\platyvg.cpp">
+      <Filter>PlatyVG\source\platyvg\api</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Bx2D\core\BxCore.hpp">
+      <Filter>Bx2D\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bx2D\core\BxCoreImpl.hpp">
+      <Filter>Bx2D\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bx2D\lib\BxAnimate.hpp">
+      <Filter>Bx2D\lib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bx2D\lib\BxArgument.hpp">
+      <Filter>Bx2D\lib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bx2D\lib\BxAutoBuffer.hpp">
+      <Filter>Bx2D\lib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bx2D\lib\BxConsole.hpp">
+      <Filter>Bx2D\lib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bx2D\lib\BxDraw.hpp">
+      <Filter>Bx2D\lib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bx2D\lib\BxDynamic.hpp">
+      <Filter>Bx2D\lib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bx2D\lib\BxExpress.hpp">
+      <Filter>Bx2D\lib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bx2D\lib\BxImage.hpp">
+      <Filter>Bx2D\lib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bx2D\lib\BxKeyword.hpp">
+      <Filter>Bx2D\lib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bx2D\lib\BxMemory.hpp">
+      <Filter>Bx2D\lib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bx2D\lib\BxPathFind.hpp">
+      <Filter>Bx2D\lib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bx2D\lib\BxPool.hpp">
+      <Filter>Bx2D\lib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bx2D\lib\BxScene.hpp">
+      <Filter>Bx2D\lib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bx2D\lib\BxSingleton.hpp">
+      <Filter>Bx2D\lib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bx2D\lib\BxString.hpp">
+      <Filter>Bx2D\lib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bx2D\lib\BxTween.hpp">
+      <Filter>Bx2D\lib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bx2D\lib\BxType.hpp">
+      <Filter>Bx2D\lib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bx2D\lib\BxUtil.hpp">
+      <Filter>Bx2D\lib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bx2D\lib\BxVar.hpp">
+      <Filter>Bx2D\lib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bx2D\lib\BxVarMap.hpp">
+      <Filter>Bx2D\lib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bx2D\lib\BxVarVector.hpp">
+      <Filter>Bx2D\lib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bx2D\lib\BxWebContent.hpp">
+      <Filter>Bx2D\lib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bx2D\lib\BxXml.hpp">
+      <Filter>Bx2D\lib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bx2D\lib\BxPanel.hpp">
+      <Filter>Bx2D\lib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PlatyVG\source\api\command.hpp">
+      <Filter>PlatyVG\source\platyvg\api</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PlatyVG\source\api\export.hpp">
+      <Filter>PlatyVG\source\platyvg\api</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PlatyVG\source\api\listener.hpp">
+      <Filter>PlatyVG\source\platyvg\api</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PlatyVG\source\element\coord.hpp">
+      <Filter>PlatyVG\source\platyvg\element</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PlatyVG\source\element\edge.hpp">
+      <Filter>PlatyVG\source\platyvg\element</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PlatyVG\source\element\point.hpp">
+      <Filter>PlatyVG\source\platyvg\element</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PlatyVG\source\element\context.hpp">
+      <Filter>PlatyVG\source\platyvg\element</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PlatyVG\source\element\mesh.hpp">
+      <Filter>PlatyVG\source\platyvg\element</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PlatyVG\source\api\adapter.hpp">
+      <Filter>PlatyVG\source\platyvg\api</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PlatyVG\source\element\size.hpp">
+      <Filter>PlatyVG\source\platyvg\element</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PlatyVG\source\element\action.hpp">
+      <Filter>PlatyVG\source\platyvg\element</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PlatyVG\source\element\color.hpp">
+      <Filter>PlatyVG\source\platyvg\element</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PlatyVG\source\element\matrix.hpp">
+      <Filter>PlatyVG\source\platyvg\element</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PlatyVG\source\element\zoom.hpp">
+      <Filter>PlatyVG\source\platyvg\element</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PlatyVG\source\element\rect.hpp">
+      <Filter>PlatyVG\source\platyvg\element</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PlatyVG\source\element\table.hpp">
+      <Filter>PlatyVG\source\platyvg\element</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PlatyVG\source\element\selector.hpp">
+      <Filter>PlatyVG\source\platyvg\element</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PlatyVG\source\api\input.hpp">
+      <Filter>PlatyVG\source\platyvg\api</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PlatyVG\source\px\array.hpp">
+      <Filter>PlatyVG\source\platyvg\px</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PlatyVG\source\px\buffer.hpp">
+      <Filter>PlatyVG\source\platyvg\px</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PlatyVG\source\px\file.hpp">
+      <Filter>PlatyVG\source\platyvg\px</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PlatyVG\source\px\math.hpp">
+      <Filter>PlatyVG\source\platyvg\px</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PlatyVG\source\px\memory.hpp">
+      <Filter>PlatyVG\source\platyvg\px</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PlatyVG\source\px\parser.hpp">
+      <Filter>PlatyVG\source\platyvg\px</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PlatyVG\source\px\share.hpp">
+      <Filter>PlatyVG\source\platyvg\px</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PlatyVG\source\px\string.hpp">
+      <Filter>PlatyVG\source\platyvg\px</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PlatyVG\source\core\document.hpp">
+      <Filter>PlatyVG\source\platyvg\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PlatyVG\source\core\layer.hpp">
+      <Filter>PlatyVG\source\platyvg\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PlatyVG\source\core\record.hpp">
+      <Filter>PlatyVG\source\platyvg\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PlatyVG\source\core\shape.hpp">
+      <Filter>PlatyVG\source\platyvg\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PlatyVG\source\core\view.hpp">
+      <Filter>PlatyVG\source\platyvg\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PlatyVG\source\api\platyvg.hpp">
+      <Filter>PlatyVG\source\platyvg\api</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PlatyVG\source\px\px.hpp">
+      <Filter>PlatyVG\source\platyvg\px</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\platycanvasdata.hpp">
+      <Filter>source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PlatyVG\source\core\device.hpp">
+      <Filter>PlatyVG\source\platyvg\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bx2D\lib\BxVarQueue.hpp">
+      <Filter>Bx2D\lib</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="..\common\main.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\..\Bx2D\core\BxCoreForQT5.hpp">
+      <Filter>Bx2D\core</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\resource\assets\config\default.key">
+      <Filter>assets\config</Filter>
+    </None>
+  </ItemGroup>
+</Project>

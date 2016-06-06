@@ -1,0 +1,231 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="source">
+      <UniqueIdentifier>{5c61e721-a50e-4103-9859-c4c48d6b4d42}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\platyvg">
+      <UniqueIdentifier>{93826be2-11c3-4080-9960-0864a67ebc65}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\platyvg\api">
+      <UniqueIdentifier>{fd4d4d2a-6bd0-400a-bbe3-00553b45ded8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\platyvg\element">
+      <UniqueIdentifier>{44da978b-9f43-4e4d-82be-f0a91d35cf12}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\platyvg\px">
+      <UniqueIdentifier>{1ecfba32-b278-4903-b13d-fcb46a8a019c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\platyvg\core">
+      <UniqueIdentifier>{882b143b-46b1-4371-9079-6c8d04f057d0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\PlatyVG\source\element\coord.cpp">
+      <Filter>source\platyvg\element</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PlatyVG\source\element\edge.cpp">
+      <Filter>source\platyvg\element</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PlatyVG\source\element\point.cpp">
+      <Filter>source\platyvg\element</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PlatyVG\source\element\context.cpp">
+      <Filter>source\platyvg\element</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PlatyVG\source\element\mesh.cpp">
+      <Filter>source\platyvg\element</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PlatyVG\source\element\size.cpp">
+      <Filter>source\platyvg\element</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PlatyVG\source\element\action.cpp">
+      <Filter>source\platyvg\element</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PlatyVG\source\element\color.cpp">
+      <Filter>source\platyvg\element</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PlatyVG\source\element\matrix.cpp">
+      <Filter>source\platyvg\element</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PlatyVG\source\element\zoom.cpp">
+      <Filter>source\platyvg\element</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PlatyVG\source\element\rect.cpp">
+      <Filter>source\platyvg\element</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PlatyVG\source\element\table.cpp">
+      <Filter>source\platyvg\element</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PlatyVG\source\element\selector.cpp">
+      <Filter>source\platyvg\element</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PlatyVG\source\px\array.cpp">
+      <Filter>source\platyvg\px</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PlatyVG\source\px\buffer.cpp">
+      <Filter>source\platyvg\px</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PlatyVG\source\px\file.cpp">
+      <Filter>source\platyvg\px</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PlatyVG\source\px\math.cpp">
+      <Filter>source\platyvg\px</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PlatyVG\source\px\memory.cpp">
+      <Filter>source\platyvg\px</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PlatyVG\source\px\parser.cpp">
+      <Filter>source\platyvg\px</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PlatyVG\source\px\share.cpp">
+      <Filter>source\platyvg\px</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PlatyVG\source\px\string.cpp">
+      <Filter>source\platyvg\px</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PlatyVG\source\core\document.cpp">
+      <Filter>source\platyvg\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PlatyVG\source\core\layer.cpp">
+      <Filter>source\platyvg\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PlatyVG\source\core\record.cpp">
+      <Filter>source\platyvg\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PlatyVG\source\core\shape.cpp">
+      <Filter>source\platyvg\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PlatyVG\source\core\view.cpp">
+      <Filter>source\platyvg\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PlatyVG\source\core\device.cpp">
+      <Filter>source\platyvg\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PlatyVG\source\px\px.cpp">
+      <Filter>source\platyvg\px</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PlatyVG\source\api\platyvg.cpp">
+      <Filter>source\platyvg\api</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PlatyVG\source\api\listener.cpp">
+      <Filter>source\platyvg\api</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PlatyVG\source\api\input.cpp">
+      <Filter>source\platyvg\api</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PlatyVG\source\api\export.cpp">
+      <Filter>source\platyvg\api</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PlatyVG\source\api\command.cpp">
+      <Filter>source\platyvg\api</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PlatyVG\source\api\adapter.cpp">
+      <Filter>source\platyvg\api</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\PlatyVG\source\api\command.hpp">
+      <Filter>source\platyvg\api</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PlatyVG\source\api\export.hpp">
+      <Filter>source\platyvg\api</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PlatyVG\source\api\listener.hpp">
+      <Filter>source\platyvg\api</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PlatyVG\source\element\coord.hpp">
+      <Filter>source\platyvg\element</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PlatyVG\source\element\edge.hpp">
+      <Filter>source\platyvg\element</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PlatyVG\source\element\point.hpp">
+      <Filter>source\platyvg\element</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PlatyVG\source\element\context.hpp">
+      <Filter>source\platyvg\element</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PlatyVG\source\element\mesh.hpp">
+      <Filter>source\platyvg\element</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PlatyVG\source\api\adapter.hpp">
+      <Filter>source\platyvg\api</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PlatyVG\source\element\size.hpp">
+      <Filter>source\platyvg\element</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PlatyVG\source\element\action.hpp">
+      <Filter>source\platyvg\element</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PlatyVG\source\element\color.hpp">
+      <Filter>source\platyvg\element</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PlatyVG\source\element\matrix.hpp">
+      <Filter>source\platyvg\element</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PlatyVG\source\element\zoom.hpp">
+      <Filter>source\platyvg\element</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PlatyVG\source\element\rect.hpp">
+      <Filter>source\platyvg\element</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PlatyVG\source\element\table.hpp">
+      <Filter>source\platyvg\element</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PlatyVG\source\element\selector.hpp">
+      <Filter>source\platyvg\element</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PlatyVG\source\api\input.hpp">
+      <Filter>source\platyvg\api</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PlatyVG\source\px\array.hpp">
+      <Filter>source\platyvg\px</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PlatyVG\source\px\buffer.hpp">
+      <Filter>source\platyvg\px</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PlatyVG\source\px\file.hpp">
+      <Filter>source\platyvg\px</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PlatyVG\source\px\math.hpp">
+      <Filter>source\platyvg\px</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PlatyVG\source\px\memory.hpp">
+      <Filter>source\platyvg\px</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PlatyVG\source\px\parser.hpp">
+      <Filter>source\platyvg\px</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PlatyVG\source\px\share.hpp">
+      <Filter>source\platyvg\px</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PlatyVG\source\px\string.hpp">
+      <Filter>source\platyvg\px</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PlatyVG\source\core\document.hpp">
+      <Filter>source\platyvg\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PlatyVG\source\core\layer.hpp">
+      <Filter>source\platyvg\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PlatyVG\source\core\record.hpp">
+      <Filter>source\platyvg\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PlatyVG\source\core\shape.hpp">
+      <Filter>source\platyvg\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PlatyVG\source\core\view.hpp">
+      <Filter>source\platyvg\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PlatyVG\source\api\platyvg.hpp">
+      <Filter>source\platyvg\api</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PlatyVG\source\px\px.hpp">
+      <Filter>source\platyvg\px</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PlatyVG\source\core\device.hpp">
+      <Filter>source\platyvg\core</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
